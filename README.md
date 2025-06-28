@@ -23,6 +23,7 @@ The dataset is shared via Google Drive with registered participants. To access, 
 ## 🧪 Running the Baselines
 
 This repository provides two baseline systems, implemented in the following notebook files. You can run them using Colab Pro.
+
  **Zero-Shot Inference** (`ImageValZeroShot.ipynb`):  
    Directly generates Arabic captions from images using Qwen2.5-VL in a zero-shot setting.
 
