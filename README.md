@@ -7,7 +7,7 @@ This repository contains official baselines for the **Arabic Image Captioning Sh
 
 - A zero-shot baseline for generating captions using Qwen2.5-VL without fine-tuning.
 - A fine-tuned baseline using Qwen2.5-VL trained on the provided Arabic-captioned training set.
-- An evaluation script to compare predictions with ground truth using the official metrics (BLEU, ROUGE, and Cosine Similarity).
+- An evaluation script to compare predictions with ground truth using the official metrics (BLEU, ROUGE,Cosine Similarity, LLM as a Judge).
 
 ## 📊 Dataset
 
@@ -22,8 +22,7 @@ The dataset is shared via Google Drive with registered participants. To access, 
  
 ## 🧪 Running the Baselines
 
-This repository provides two baseline systems implemented in the following notebook files:
-
+This repository provides two baseline systems, implemented in the following notebook files. You can run them using Colab Pro.
  **Zero-Shot Inference** (`ImageValZeroShot.ipynb`):  
    Directly generates Arabic captions from images using Qwen2.5-VL in a zero-shot setting.
 
@@ -37,6 +36,7 @@ The evaluation script (`EvaluationScriptImageVal.ipynb`) computes performance on
 - BLEU (Bilingual Evaluation Understudy)
 - ROUGE (Recall-Oriented Understudy for Gisting Evaluation)
 - Cosine Similarity
+- LLM as a Judge
 
   
 
