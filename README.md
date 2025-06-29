@@ -16,7 +16,7 @@ The dataset comprises approximately 3471 images with Arabic captions. It is divi
 - **Training Set**: about 2718 images (for fine-tuning)
 - **Test Set**: about 753 images (for evaluation)
 
-The dataset is shared via Google Drive with registered participants. To access, teams must register through [the official registration form](https://docs.google.com/forms/d/e/1FAIpQLSfBqpu8badMfm_IgsLqVGAfmWiXHS_56ntPsWMN77nbB1ENw/viewform)
+To participate in the shared task and get a training dataset, please register in [the official registration form](https://docs.google.com/forms/d/e/1FAIpQLSfBqpu8badMfm_IgsLqVGAfmWiXHS_56ntPsWMN77nbB1ENw/viewform). The test dataset will be shared only during the test phase in the shared task ([see the deadlines](https://sina.birzeit.edu/image_eval2025/index.html))
  
 ## 🧪 Running the Baselines
 
@@ -34,8 +34,8 @@ The evaluation script (`EvaluationScriptImageVal.ipynb`) computes performance on
 
 - BLEU (Bilingual Evaluation Understudy)
 - ROUGE (Recall-Oriented Understudy for Gisting Evaluation)
-- Cosine Similarity
-- LLM as a Judge
+- Cosine Similarity: Evaluates caption similarity based on the angle between their embedding vectors. 
+- LLM as a Judge: We use GPT-4o as an automatic judge to evaluate caption quality through pairwise comparison with ground truth, supplementing standard     metrics.
 
   
 
@@ -44,5 +44,5 @@ The evaluation script (`EvaluationScriptImageVal.ipynb`) computes performance on
 
 For any questions or support:
 
-- Email: imageeval2025@gmail.com
+- Email: abashiti@birzeit.edu, aaljabari@birzeit.edu
 
