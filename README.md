@@ -7,14 +7,14 @@ This repository contains official baselines for the **Arabic Image Captioning Sh
 
 - A zero-shot baseline for generating captions using Qwen2.5-VL 7B without fine-tuning.
 - A fine-tuned baseline using Qwen2.5-VL 7B trained on the provided Arabic-captioned training set.
-- An evaluation script to compare predictions with ground truth using the official metrics (BLEU, ROUGE, Cosine Similarity,and LLM as a Judge).
+- An evaluation script to compare predictions with ground truth using the official metrics (BLEU, ROUGE, Cosine Similarity, and LLM as a Judge).
 
 ## 📊 Dataset
 
-The dataset comprises approximately 3471 images with Arabic captions. It is divided into:
+The dataset comprises 3471 images with Arabic captions. It is divided into:
 
-- **Training Set**: about 2718 images (for fine-tuning)
-- **Test Set**: about 753 images (for evaluation)
+- **Training Set**: 2718 images (for fine-tuning)
+- **Test Set**: 753 images (for evaluation)
 
 To participate in the shared task and get a training dataset, please register in [the official registration form](https://docs.google.com/forms/d/e/1FAIpQLSfBqpu8badMfm_IgsLqVGAfmWiXHS_56ntPsWMN77nbB1ENw/viewform). The test dataset will be shared only during the test phase in the shared task ([see the deadlines](https://sina.birzeit.edu/image_eval2025/index.html))
  
@@ -26,7 +26,7 @@ This repository provides two baseline systems, implemented in the following note
    Directly generates Arabic captions from images using Qwen2.5-VL in a zero-shot setting.
 
 **Fine-Tuning** (`ImageValFinetune.ipynb`):  
-   Fine-tunes Qwen2.5-VL on the provided training data (3,000 images), then generates captions for the test set.
+   Fine-tunes Qwen2.5-VL on the provided training data (2718 images), then generates captions for the test set.
 
 ## 📏 Evaluation
 
