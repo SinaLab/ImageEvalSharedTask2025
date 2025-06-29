@@ -16,7 +16,7 @@ The dataset comprises 3471 images with Arabic captions. It is divided into:
 - **Training Set**: 2718 images. 
 - **Test Set**: 753 images. 
 
-To participate in the shared task and get a training dataset, please register in ([the official registration form](https://docs.google.com/forms/d/e/1FAIpQLSfBqpu8badMfm_IgsLqVGAfmWiXHS_56ntPsWMN77nbB1ENw/viewform)). The test dataset will be shared only during the test phase in the shared task ([see the deadlines](https://sina.birzeit.edu/image_eval2025/index.html))
+To participate in the shared task and get a training dataset, please register in ([the official registration form](https://forms.gle/qn4NDr6PYW49bLns7)). The test dataset will be shared only during the test phase in the shared task ([see the deadlines](https://sina.birzeit.edu/image_eval2025/index.html))
  
 ## 🧪 Running the Baselines
 
